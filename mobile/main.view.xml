@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <view title="[POC] Stripe">
+    <button on-press="$:buttonPress()" label="Load HTML" />
+
+    <html src="@local/stripe/index.html" id="stripe" show-fullscreen-button="true" height="600"/>
 
 </view>

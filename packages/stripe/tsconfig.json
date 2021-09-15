@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "composite": true,
+        "types": [
+            "node"
+        ],
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "lib": [
+            "es2019", "DOM"
+        ],
+        "target": "es2017",
+        "declaration": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "esModuleInterop": true
+    },
+    "include": [
+        "src",
+        "src/**/*",
+    ]
+}

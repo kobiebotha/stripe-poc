@@ -39,8 +39,7 @@
           "font_primary": "#111111",
           "font_secondary": "#606060"
         },
-        "custom": {
-        }
+        "custom": {}
       }
     },
     {
@@ -64,8 +63,7 @@
           "font_primary": "#FFFFFF",
           "font_secondary": "#FFFFFF"
         },
-        "custom": {
-        }
+        "custom": {}
       }
     }
   ],
@@ -80,6 +78,7 @@
     "use_rvm_update",
     "multiple_devices",
     "sqlite_json1",
-    "navigation_component"
+    "navigation_component",
+    "typescript_mode"
   ]
 }

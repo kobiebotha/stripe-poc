@@ -10,3 +10,10 @@ function resume(from) {
     // from.path       contains the path of the view that the user returned from
     // if any data needs to be refreshed when the user returns to this view, you can do that here:
 }
+
+
+function buttonPress() {
+  // TODO implement
+
+  component.html({id: 'stripe'})
+}
