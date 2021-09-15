@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <view title="[POC] Stripe">
+
+    <var name="myvar" type="text" />
     <button on-press="$:buttonPress()" label="Load HTML" />
 
-    <html src="@local/stripe/index.html" id="stripe" show-fullscreen-button="true" height="600"/>
+    <html src="{$:getSrc()}" id="stripe" show-fullscreen-button="true" height="600"/>
 
+    <button label="loadStripe" on-press="loadStripe" validate="false" />
 </view>
